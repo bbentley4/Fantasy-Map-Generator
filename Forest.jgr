@@ -1,0 +1,18 @@
+newgraph
+xaxis min 0 max 22 nodraw
+yaxis min 0 max 22 nodraw
+(* grid_lines hash 1 *)
+
+newcurve eps ./Tree.ps marksize 5 5 pts 4 20
+newcurve eps ./Tree.ps marksize 5 5 pts 6 16
+newcurve eps ./Tree.ps marksize 5 5 pts 2 15 
+newcurve eps ./Tree.ps marksize 5 5 pts 2 4
+newcurve eps ./Tree.ps marksize 5 5 pts 11 7
+newcurve eps ./Tree.ps marksize 5 5 pts 4 6
+newcurve eps ./Tree.ps marksize 5 5 pts 4 10
+newcurve eps ./Tree.ps marksize 5 5 pts 8 18
+newcurve eps ./Tree.ps marksize 5 5 pts 10 12
+newcurve eps ./Tree.ps marksize 5 5 pts 12 14
+newcurve eps ./Tree.ps marksize 5 5 pts 14 18
+newcurve eps ./Tree.ps marksize 5 5 pts 13 4
+newcurve eps ./Tree.ps marksize 5 5 pts 7 6

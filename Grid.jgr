@@ -1,0 +1,48 @@
+newgraph
+
+xaxis min 0 max 200 no_auto_hash_labels hash 20 grid_lines
+    hash_label at 0 : A
+    hash_label at 10 : B
+    hash_label at 20 : C
+    hash_label at 30 : D
+    hash_label at 40 : E
+    hash_label at 50 : F
+    hash_label at 60 : G
+    hash_label at 70 : H
+    hash_label at 80 : I
+    hash_label at 90 : J
+    hash_label at 100 : K
+    hash_label at 110 : L
+    hash_label at 120 : M
+    hash_label at 130 : N
+    hash_label at 140 : O
+    hash_label at 150 : P
+    hash_label at 160 : Q
+    hash_label at 170 : R
+    hash_label at 180 : S
+    hash_label at 190 : T
+    hash_label at 200 : U
+
+yaxis min -70 max 70 no_auto_hash_labels hash 20 grid_lines
+    hash_label at -70 : 1
+    hash_label at -60 : 2
+    hash_label at -50 : 3
+    hash_label at -40 : 4
+    hash_label at -30 : 5
+    hash_label at -20 : 6
+    hash_label at -10 : 7
+    hash_label at 0 : 8
+    hash_label at 10 : 9
+    hash_label at 20 : 10
+    hash_label at 30 : 11
+    hash_label at 40 : 12
+    hash_label at 50 : 13
+    hash_label at 60 : 14
+    hash_label at 70 : 15
+
+    newcurve eps ./G_Mountains.ps marksize 15 15 pts 20 -50  30 -40
+    newcurve eps ./Forest.ps marksize 15 15 pts 50 -10  40 -10
+    newcurve eps ./RiverNS.ps marksize 5 30 pts 0 0
+    
+
+

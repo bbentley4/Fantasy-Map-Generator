@@ -1,0 +1,49 @@
+newgraph
+xaxis min 0 max 300 nodraw
+yaxis min -10 max 80 nodraw
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+0 0  30 30  60 0
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+30 30  25 20  60 0
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+20 -10  70 55  90 55  140 -10  
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+90 55  80 55  70 30  140 -10
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+120 15  170 80  190 80  240 15
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+190 80  180 80  170 55  240 15
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+105 5  135 30  165 5
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+135 30  130 20  165 5 
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+165 -10  200 25  235 -10
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+200 25  195 15  235 -10
+
+newcurve poly color 0.78 0.4 0 marktype none linetype solid color 0.78 0.4 0
+pts
+235 40  265 60  295 40
+newcurve poly color 0.46 0.25 0 marktype none linetype solid color 0.46 0.25 0
+pts 
+265 60  255 50  295 40
+
+
+
+

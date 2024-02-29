@@ -1,0 +1,16 @@
+newgraph
+xaxis nodraw
+yaxis nodraw
+
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts 
+2 6  3 7  4 6  2 6
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts 
+1 4  3 6  5 4  1 4
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts 
+0 2  3 4  6 2  0 2
+newcurve marktype none linetype solid color 0.65 0.36 0.16 linethickness 10 pts
+pts 
+3 0  3 2
