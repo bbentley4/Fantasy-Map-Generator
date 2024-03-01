@@ -1,0 +1,27 @@
+newgraph
+xaxis nodraw
+yaxis nodraw
+
+(* Trunk *)
+newcurve marktype none linetype solid color 0.65 0.36 0.16 linethickness 30 pts
+pts 
+-100 -50  -100 60
+
+(* Leaves *)
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts
+-140 50  -100 60  -100 80
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts
+-140 90  -100 60  -90 80
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts
+-60 90  -100 60  -100 80
+newcurve poly color 0 0.5 0 marktype none linetype solid color 0 0.5 0
+pts
+-60 50  -100 60  -90 80
+
+(* Coconuts *)
+newline marktype circle poly color 0.24 0.12 0 marksize 10 10 pts -100 60
+newline marktype circle poly color 0.24 0.12 0 marksize 10 10 pts -92 52
+newline marktype circle poly color 0.24 0.12 0 marksize 10 10 pts -108 52

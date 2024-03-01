@@ -1,0 +1,79 @@
+print("Rivers: ")
+        print("Enter the coordinates for the beginning and end of the river and how wide you'd like the river.")
+        print("When you're done, simply type X when prompted for the coordinate.\n")
+
+        while 1:
+            x1 = None
+            x2 = None
+            y1 = None
+            y2 = None
+            width = None
+
+            coordinate1 = input("Coordinate 1: ")
+
+            if coordinate1 == 'X' or coordinate1 == 'x':
+                break
+
+            if len(coordinate1) != 3:
+                print("Invalid coordinate\n")
+                continue
+
+            letter = coordinate1[0].upper()
+            number = coordinate1[1:]
+
+            if letter in letter_values and number in number_values:
+                x1 = letter_values[letter]
+                y1 = number_values[number] 
+            else:
+                print("Invalid coordinate\n")
+                continue
+            
+            coordinate2 = input("Coordinate 2: ")
+
+            if len(coordinate2) != 3:
+                print("Invalid coordinate\n")
+                continue
+
+            letter = coordinate2[0].upper()
+            number = coordinate2[1:]
+
+            if letter in letter_values and number in number_values:
+                x2 = letter_values[letter]
+                y2 = number_values[number] 
+            else:
+                print("Invalid coordinate\n")
+                continue
+
+            width = int(input("Width: "))
+            if (width < 0):
+                print ("Invalid width - must be greater than 0")
+                continue
+        
+            distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+            #River stretches both ways so I have to plot it at the midpoint
+            midpoint_x = (x1 + x2) / 2
+            midpoint_y = (y1 + y2) / 2
+
+            #Rotate the river to be at the right angle
+            angle = math.degrees(math.atan2(-(y2-y1), x2-x1))
+            river_angle = None
+            if ((x2 - x1) < 0):
+                river_angle = angle + 90
+            if ((x2 - x1) == 0):
+                river_angle = 90
+            else:
+                river_angle = angle + 90
+
+            river_size = 4.5
+            distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+            num_points = int(distance/river_size) + 1
+            add_to_x = ((x2 - x1) / num_points)
+            add_to_y = ((y2 - y1) / num_points)
+
+            for i in range(num_points):
+                plot_x = x1 + i * add_to_x
+                plot_y = y1 + i * add_to_y
+                output_jgr.write(f"newcurve eps ./River.ps marksize {width} 5 mrotate {river_angle} pts {plot_x} {plot_y}\n")
+
+            output_jgr.write(f"newcurve eps ./River.ps marksize {width} 5 mrotate {river_angle} pts {x2} {y2}\n")
