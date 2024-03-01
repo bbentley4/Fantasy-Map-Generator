@@ -1,0 +1,77 @@
+newgraph
+xaxis nodraw
+yaxis nodraw
+
+newline poly color 0.37 0.59 0.28 linethickness 1 
+pts
+shell : echo "" | awk 'BEGIN { \
+    pi = atan2(0, -1); \
+    for (i = 0; i <= 180; i += 1) { \
+        x1 = -sin((90+i)*pi/180); \
+        y1 = -cos((90+i)*pi/180); \
+        printf(" %f %f", x1, y1); \
+    } \
+}'
+
+newline poly color 0.37 0.59 0.28 linethickness 1 
+pts
+shell : echo "" | awk 'BEGIN { \
+    pi = atan2(0, -1); \
+    for (i = 0; i <= 180; i += 1) { \
+        x1 = -sin(i*pi/180) - 2; \
+        y1 = -cos(i*pi/180) - 3; \
+        printf(" %f %f", x1, y1); \
+    } \
+}'
+
+newline poly color 0.37 0.59 0.28 linethickness 1 
+pts
+shell : echo "" | awk 'BEGIN { \
+    pi = atan2(0, -1); \
+    for (i = 0; i <= 180; i += 1) { \
+        x1 = -sin((i+180)*pi/180) + 1; \
+        y1 = -cos((i+180)*pi/180) - 7.5; \
+        printf(" %f %f", x1, y1); \
+    } \
+}'
+
+newline poly color 0.37 0.59 0.28 linethickness 1 
+pts
+shell : echo "" | awk 'BEGIN { \
+    pi = atan2(0, -1); \
+    for (i = 0; i <= 180; i += 1) { \
+        x1 = -0.5*sin((90+i)*pi/180) - 2.5; \
+        y1 = -0.5*cos((90+i)*pi/180); \
+        printf(" %f %f", x1, y1); \
+    } \
+}'
+
+
+newcurve poly color 0.37 0.59 0.28 marktype none linetype solid color 0.37 0.59 0.28
+pts 
+-1 0  1 0  1 -10  -1 -10
+
+newcurve poly color 0.37 0.59 0.28 marktype none linetype solid color 0.37 0.59 0.28
+pts 
+-1 -2  -1 -4  -2 -4  -2 -2
+
+newcurve poly color 0.37 0.59 0.28 marktype none linetype solid color 0.37 0.59 0.28
+pts 
+-2 0  -2 -3  -3 -3  -3 0
+
+(* Spines *)
+newline mrotate 65 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts -0.5 0.75
+newline mrotate 160 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts 0 0.5
+
+newline mrotate 35 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts 1 -7.5
+newline mrotate 145 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts 1.75 -7
+newline marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts 1.4 -6.75
+
+newline mrotate 145 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts -2.5 0.3
+newline mrotate 35 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts -2.75 -0.5
+newline mrotate 150 marktype triangle poly color 1 0.95 0.8 marksize 0.01 0.5 pts -2.25 -0.75
+
+newline marktype ellipse poly color 1 0.02 0.71 marksize 1 1 pts 0.75 0.25
+newline mrotate 45 marktype ellipse poly color 1 0.02 0.71 marksize 1 1 pts 0.75 0.25
+newline mrotate 135 marktype ellipse poly color 1 0.02 0.71 marksize 1 1 pts 0.75 0.25
+newline marktype circle poly color 1 0.85 0.4 marksize 0.25 0.25 pts 0.75 0.25

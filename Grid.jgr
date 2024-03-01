@@ -40,9 +40,7 @@ yaxis min -70 max 70 no_auto_hash_labels hash 20 grid_lines
     hash_label at 60 : 14
     hash_label at 70 : 15
 
-    newcurve eps ./G_Mountains.ps marksize 15 15 pts 20 -50  30 -40
-    newcurve eps ./Forest.ps marksize 15 15 pts 50 -10  40 -10
-    newcurve eps ./RiverNS.ps marksize 5 30 pts 0 0
     
 
 
+newcurve eps ./Cactus.ps marksize 15 15 pts 4 20
