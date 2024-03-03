@@ -2,7 +2,7 @@ newgraph
 xaxis nodraw
 yaxis nodraw
 
-newcurve poly color 0.3 0.5 0.7 marktype none linetype solid color 0.3 0.5 0.7
+newcurve poly color 0.18 0.34 0.18 marktype none linetype solid color 0.18 0.34 0.18
 pts 
 0 0
 0.5 0.3
@@ -74,7 +74,7 @@ pts
 180 10
 185 0
 
-newcurve poly color 0.3 0.5 0.7 marktype none linetype solid color 0.3 0.5 0.7
+newcurve poly color 0.18 0.34 0.18 marktype none linetype solid color 0.18 0.34 0.18
 pts
 0 0
 1 -3

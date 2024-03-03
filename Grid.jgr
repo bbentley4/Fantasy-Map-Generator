@@ -39,5 +39,3 @@ yaxis min -70 max 70 no_auto_hash_labels hash 20 grid_lines
     hash_label at 50 : 13
     hash_label at 60 : 14
     hash_label at 70 : 15
-
-    

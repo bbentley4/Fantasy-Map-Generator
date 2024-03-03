@@ -34,7 +34,7 @@ print("Rivers: ")
                 print("Invalid coordinate\n")
                 continue
 
-            letter = coordinate2[0].upper()
+            letter = coordinate2[0]
             number = coordinate2[1:]
 
             if letter in letter_values and number in number_values:
