@@ -39,149 +39,134 @@ yaxis min -70 max 70 no_auto_hash_labels hash 20 grid_lines
     hash_label at 60 : 14
     hash_label at 70 : 15
 
-newcurve poly color 0.45 0.6 0.41 marktype none linetype solid color 0.45 0.6 0.41
-pts 0 -70  200 -70  200 70  0 70
+newcurve poly color 0.93 0.79 0.69 marktype none linetype solid color 0.93 0.79 0.69
+	pts 0 -70  200 -70  200 70  0 70
 
-newcurve eps ./Icons/Lake.ps marksize 85 60 pts 40 70
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 10.0 50.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 15.0 55.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 20 60
 
-newcurve eps ./Icons/Lake.ps marksize 85 60 pts 40 40
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 10.0 30.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 15.0 37.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 20.0 45.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 25.0 52.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 30 60
 
-newcurve eps ./Icons/Lake.ps marksize 25 20 pts 10 50
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 10.0 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 16.0 26.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 22.0 32.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 28.0 38.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 34.0 44.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 40 50
 
-newcurve eps ./Icons/Lake.ps marksize 10 10 pts 0 60
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 20.0 10.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 25.0 18.333333333333336
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 30.0 26.666666666666668
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 35.0 35.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 40.0 43.333333333333336
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 45.0 51.66666666666667
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 50 60
 
-newcurve eps ./Icons/Lake.ps marksize 10 10 pts 0 40
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 70.0 0.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 70.0 5.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 70 10
 
-newcurve eps ./Icons/Lake.ps marksize 7 7 pts 60 -40
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 80.0 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 87.5 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 95.0 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 102.5 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 110 20
 
-newcurve eps ./Icons/Lake.ps marksize 25 10 pts 110 10
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 120.0 20.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 125.0 15.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 130 10
 
-newcurve eps ./Icons/Lake.ps marksize 10 20 pts 130 0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 130.0 0.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 130.0 -5.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 130 -10
 
-newcurve eps ./Icons/Lake.ps marksize 35 15 pts 120 -60
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 10.0 0.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 14.285714285714285 -8.571428571428571
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 18.57142857142857 -17.142857142857142
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 22.857142857142858 -25.714285714285715
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 27.142857142857142 -34.285714285714285
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 31.428571428571427 -42.857142857142854
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 35.714285714285715 -51.42857142857143
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 40 -60
 
-newcurve eps ./Icons/Lake.ps marksize 10 10 pts 120 -40
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 20.0 -60.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 17.5 -52.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 15.0 -45.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 12.5 -37.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 10 -30
 
-newcurve eps ./Icons/Lake.ps marksize 20 10 pts 140 -20
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 150.0 -60.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 155.71428571428572 -52.857142857142854
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 161.42857142857142 -45.714285714285715
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 167.14285714285714 -38.57142857142857
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 172.85714285714286 -31.428571428571427
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 178.57142857142858 -24.285714285714285
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 184.28571428571428 -17.14285714285714
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 190 -10
 
-newcurve eps ./Icons/Lake.ps marksize 5 5 pts 190 -60
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 170.0 -60.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 175.0 -52.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 180.0 -45.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 185.0 -37.5
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 190 -30
 
-newcurve eps ./Icons/Lake.ps marksize 5 5 pts 180 -50
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 190.0 -60.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 190.0 -55.0
+newcurve eps ./Icons/R_Mountains.ps marksize 15 15 pts 190 -50
 
-newcurve eps ./Icons/Lake.ps marksize 15 15 pts 180 -40
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 50 -40
 
-newcurve eps ./Icons/Lake.ps marksize 10 10 pts 120 -10
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 60 10
 
-newcurve eps ./Icons/Lake.ps marksize 7 7 pts 110 -20
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 70 30
 
-newcurve eps ./Icons/Lake.ps marksize 30 30 pts 150 -50
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 70 -20
 
-newcurve eps ./Icons/Lake.ps marksize 20 15 pts 180 -20
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 80 -10
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 10.0 -30.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 16.666666666666668 -30.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 23.333333333333336 -30.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 30 -30
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 90 -30
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 10.0 -20.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 15.0 -20.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 20 -20
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 100 -20
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 20.0 -10.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 26.666666666666668 -16.666666666666668
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 33.333333333333336 -23.333333333333336
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 40 -30
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 110 -40
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 170.0 20.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 177.5 25.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 185.0 30.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 192.5 35.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 200 40
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 120 -20
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 120.0 40.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 127.5 45.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 135.0 50.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 142.5 55.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 150 60
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 130 -30
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 130.0 50.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 136.66666666666666 56.666666666666664
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 143.33333333333334 63.333333333333336
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 150 70
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 150 0
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 150.0 30.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 158.0 34.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 166.0 38.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 174.0 42.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 182.0 46.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 190 50
+newcurve eps ./Icons/Cactus.ps marksize 5 5 pts 140 20
 
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 110.0 50.0
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 116.66666666666667 53.333333333333336
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 123.33333333333333 56.666666666666664
-newcurve eps ./Icons/G_Mountains.ps marksize 15 15 pts 130 60
+newcurve eps ./Icons/Lake.ps marksize 50 30 pts 100 0
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 60 -30
+newcurve marktype none linetype solid linethickness 1 pts 0 0  50 0
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 70 -40
+newcurve marktype none linetype solid linethickness 1 pts 50 0  50 -20
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 50 -40
+newcurve marktype none linetype solid linethickness 1 pts 50 -20  90 -20
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 30 -60
+newcurve marktype none linetype solid linethickness 1 pts 90 -20  120 30
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 20 -50
+newcurve marktype none linetype solid linethickness 1 pts 120 30  140 30
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 40 -50
+newcurve marktype none linetype solid linethickness 1 pts 140 30  140 0
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 120 20
+newcurve marktype none linetype solid linethickness 1 pts 140 0  200 0
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 110 30
+newstring hjl vjc x 80 y 0
+fontsize 5 font Courier : Oasis
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 140 20
+newstring hjl vjc x 80 y 30
+fontsize 5 font Courier : Ring of Fire
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 160 -20
+newstring hjl vjc x 70 y 50
+fontsize 8 font Courier : Sunblazed Sands
 
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 100 -30
-
-newcurve eps ./Icons/Forest.ps marksize 15 15 pts 180 -60
-
-newcurve marktype none linetype solid linethickness 1 pts 90 -10  90 -70
-
-newcurve marktype none linetype solid linethickness 1 pts 90 10  120 10
-
-newcurve marktype none linetype solid linethickness 1 pts 130 10  130 -10
-
-newcurve marktype none linetype solid linethickness 1 pts 130 -10  200 -10
-
-newcurve marktype none linetype solid linethickness 1 pts 120 -10  90 -10
-
-newcurve marktype none linetype solid linethickness 1 pts 90 10  90 70
-
-newcurve marktype none linetype solid linethickness 1 pts 90 0  0 0
-
-newstring hjc vjc x 110 y 0
-fontsize 6 font Courier : Capitol
-
-newstring hjc vjc x 180 y 60
-fontsize 4 font Courier : Medusa Mountains
-
-newstring hjc vjc x 170 y 0
-fontsize 6 font Courier : Serpent State
-
-newstring hjc vjc x 40 y 50
-fontsize 4 font Courier : Colossal Lake
-
-newstring hjc vjc x 50 y 20
-fontsize 6 font Courier : Mermaid Municipality
-
-newstring hjc vjc x 60 y -20
-fontsize 6 font Courier : Yeti Domain
-
-newstring hjc vjc x 60 y -60
-fontsize 4 font Courier : Whispering Pines
-
-newstring hjc vjc x 120 y -30
-fontsize 6 font Courier : Hydra Haven
-
-newstring hjc vjc x 170 y -60
-fontsize 4 font Courier : The Kraken's Mirrors
+newstring hjl vjc x 70 y -60
+fontsize 8 font Courier : Mirage Valley

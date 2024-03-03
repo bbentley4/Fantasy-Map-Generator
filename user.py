@@ -466,7 +466,7 @@ def main():
                     print("Invalid coordinate\n")
                     continue
                 
-                output_jgr.write("\nnewcurve marktype none linetype solid linethickness 1 pts {x1} {y1}  {x2} {y2}\n")
+                output_jgr.write(f"\nnewcurve marktype none linetype solid linethickness 1 pts {x1} {y1}  {x2} {y2}\n")
 
             print("\n\tLabels:")
             print("Enter the coordinate that you want the label to begin and the label.")
