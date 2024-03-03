@@ -17,11 +17,11 @@ Here's an example output for
 - Option 2 (Desert): ![Desert Example](/Example2.jpg)
 - Option 3 (Ocean): ![Ocean Example](/Example3.jpg)
 
-This repository should have everything you need to run .jgr files. If you have any issues, please refer to [Dr. James Plank's write up] (https://web.eecs.utk.edu/~jplank/plank/classes/cs494/494/notes/Jgraph/lecture.html).
+This repository should have everything you need to run .jgr files. If you have any issues, please refer to [Dr. James Plank's write up](https://web.eecs.utk.edu/~jplank/plank/classes/cs494/494/notes/Jgraph/lecture.html).
 
 ## Issues/Questions
 
-If you have any issues understanding the JGraph code, please refer to the [man page] (https://manpages.debian.org/jessie/jgraph/jgraph.1.en.html)
+If you have any issues understanding the JGraph code, please refer to the [man page](https://manpages.debian.org/jessie/jgraph/jgraph.1.en.html)
 
 ## Features to be added:
 
